@@ -1,0 +1,312 @@
+@media (max-width: 1480px) {
+    .team-col {
+        margin: 10px 10px 80px 60px;
+    }
+}
+
+@media (max-width: 1160px) {
+    label.logo {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a {
+        font-size: 16px;
+    }
+    .closebtn {
+        position: relative;
+        top: 0;
+        left: 0;
+        font-size: 36px;
+        text-decoration: none;
+        color: black;
+    }
+    .closebtn, .openbtn {
+        visibility: visible;
+    }
+    .navbar ul {
+        position: absolute;
+        width: 40%;
+        height: 100vh;
+        border-radius: 0 100px;
+        background: #D3E0EA;
+        top: 50px;
+        text-align: center;
+        z-index: 1;
+        left: 0;
+        overflow-x: hidden;
+        transition: 0.5s;
+        visibility: collapse;
+    }
+    .navbar ul li {
+        margin: 50px 0;
+    }
+    .navbar ul li a {
+        display: block;
+        font-size: 20px;
+        transition: 0.3s;
+    }
+    .navbar ul li a.active, .navbar ul li a:hover {
+        background: none;
+        color: #1687A7;
+    }
+    #check:checked~ul {
+        left: 0;
+    }
+    #slider {
+        width: 100vw;
+    }
+    figure .container {
+        font-size: 80%;
+        margin: 30px;
+    }
+    .navigation-manual {
+        width: 20%;
+        margin-top: 45%;
+    }
+    .manual-btn {
+        padding: 3px;
+    }
+    .manual-btn:not(:last-child) {
+        margin-right: 6px;
+    }
+    .box {
+        width: 80%;
+        margin: -55% 10%;
+    }
+    h1 {
+        font-size: 130%;
+    }
+    p {
+        font-size: 90%;
+    }
+    .box-btn1, .box-btn2, .btn-main, .project-btn, .blogBtn {
+        padding: 4px 8px;
+        font-size: 70%;
+    }
+    .pricing-btn {
+        padding: 4px 40%;
+        font-size: 70%;
+    }
+    .prevSlider, .nextSlider {
+        font-size: 20px;
+        top: 40%;
+    }
+    .dotSlider {
+        height: 10px;
+        width: 10px;
+    }
+    .row-featurette {
+        padding: 50px;
+    }
+    .row-featurette h2 {
+        font-size: 110%;
+    }
+    #col1 p {
+        font-size: 70%;
+    }
+    #row1 {
+        flex-wrap: wrap;
+    }
+    .umbrella {
+        width: 15%;
+    }
+    #row2 {
+        height: 120%;
+        padding: 35px;
+        flex-wrap: wrap;
+    }
+    .card {
+        padding: 10px;
+        margin: 0 10px;
+        height: 270px;
+    }
+    .card-img-top {
+        width: 12%;
+    }
+    .card-body {
+        margin: 8px;
+    }
+    h3 {
+        font-size: 100%;
+    }
+    .card-text, .project-text, .pricing-body ul li, .member-designation, .blog-bpdy p {
+        font-size: 70%;
+    }
+    .divider {
+        margin: 695px 80px 80px 80px;
+    }
+    .project-row {
+        flex-wrap: wrap;
+    }
+    .project-card {
+        flex: 1;
+        height: 435px;
+    }
+    .project-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #D3E0EA;
+        width: 100%;
+    }
+    .pricing-row {
+        margin: 0;
+    }
+    .pricing-card {
+        height: 240px;
+    }
+    .video-container {
+        height: 420px;
+    }
+    .video-row {
+        column-gap: 0;
+        height: 60%;
+    }
+    .video-head {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .video-head video {
+        width: 33vw;
+        margin-top: 18%;
+    }
+    .video-body {
+        margin-top: 227px;
+    }
+    .team-col img {
+        height: 130px;
+    }
+    .team-link a img {
+        height: 38px;
+    }
+    .mySlides {
+        margin: 0;
+    }
+    .mySlides img {
+        width: 100vw;
+    }
+    .prev, .next {
+        margin: 10px;
+        font-size: 14px;
+        padding: 14px;
+    }
+    .life-row {
+        margin: 0;
+    }
+    .signUp-container {
+        height: 350px;
+    }
+    .signUp {
+        margin: 15vw 23vw;
+    }
+    #email {
+        width: 37vw;
+        height: 2vh;
+    }
+    .signUpBtn {
+        height: 5vh;
+    }
+    .blog-container {
+        margin-bottom: 100px;
+    }
+    .blog-row {
+        margin: 0;
+        column-gap: 30px;
+        padding: 0 30px;
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .blog-body {
+        padding: 30px;
+    }
+    .contact-row {
+        flex-wrap: wrap;
+    }
+    .google-map iframe {
+        width: 100%;
+    }
+    .contact-form {
+        line-height: 15px;
+    }
+    .form-col label {
+        font-size: 80%;
+    }
+    #contact-name, #contact-email, #contact-subject {
+        width: 75%;
+        padding: 2px 6px;
+    }
+    #message {
+        padding: 6px;
+        width: 75%;
+    }
+    #contactBtn {
+        padding: 2% 36%;
+    }
+    .foot-title, .foot-ul li {
+        font-size: 85%;
+    }
+    .footer-icon {
+        height: 15px;
+    }
+}
+
+@media (max-width: 990px) {
+    .video-body {
+        margin-top: 62%;
+    }
+}
+
+@media (max-width: 760px) {
+    .video-container {
+        height: 400px;
+    }
+    .video-row {
+        height: 42%;
+    }
+}
+
+@media (max-width:810px) {
+    .team-row {
+        height: 700px;
+    }
+}
+
+@media (max-width: 688px) {
+    .team-col {
+        height: 25%;
+        margin: 10px auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .navbar ul li a {
+        font-size: 15px;
+    }
+    .signUp {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .signUpBtn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 3.8vh;
+    }
+}
+
+@media (max-width: 412px) {
+    #contactBtn {
+        padding: 2% 34%;
+    }
+    h1 {
+        font-size: 120%;
+    }
+    p {
+        font-size: 70%;
+    }
+}
